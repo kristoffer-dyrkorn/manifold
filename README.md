@@ -2,7 +2,7 @@
 
 Checks whether an input mesh (an OBJ file) is a manifold surface.
 
-Based on a method described in [An introduction to Mesh Generation](https://perso.uclouvain.be/vincent.legat/documents/meca2170/meshGenerationBook.pdf), by Christophe Geuzaine Jean-François Remacle.
+Based on a method described in [An introduction to Mesh Generation](https://perso.uclouvain.be/vincent.legat/documents/meca2170/meshGenerationBook.pdf), by Christophe Geuzaine and Jean-François Remacle.
 
 ## Usage
 
