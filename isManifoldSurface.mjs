@@ -1,5 +1,4 @@
 import * as fs from "fs";
-import { exit } from "process";
 
 function readOBJ(fileName) {
   const objData = fs.readFileSync(fileName, { encoding: "utf-8" });
@@ -136,7 +135,7 @@ function getBoundaryVerticesCount(boundaryEdges) {
 }
 
 // calculate various metrics for the surface - based on vertices and edges
-// if the mesh counts match the metrics then the surface is regarded as a manifold
+// if the mesh counts match the metrics then the surface is regarded to be a manifold
 function isManifoldSurface(triangles, vertices) {
   const [interiorEdges, boundaryEdges] = classifyEdges(triangles);
   const totalEdges = interiorEdges.length + boundaryEdges.length;

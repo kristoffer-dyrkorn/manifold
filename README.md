@@ -6,7 +6,7 @@ Based on a method described in [An introduction to Mesh Generation](https://pers
 
 ## Usage
 
-Run `node verifyMesh.mjs <obj file to check>` from the command line. See under the `testdata/` folder for example data files.
+Run `node verifyMesh.mjs <obj file to check>` from the command line. See the `testdata/` folder for example data files.
 
 The unit tests (implemented via `vitest`) in `manifold.test.js` can also be useful to look at. Run the tests by installing the needed dependencies and then running `vitest`, ie:
 
